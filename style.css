@@ -1,0 +1,39 @@
+header{
+    background-color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 350%;
+}
+img{
+    margin-left: 2%;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+}
+section1{
+    float:left;
+    width: 75%;
+    margin-top: 1.5%;
+}
+section2{
+    float:right;
+    width: 25%;
+}
+section3{
+    float:left;
+    width: 75%;
+    margin-top: 2.1%;
+}
+section4{
+    float:right;
+    width: 25%;
+    margin-top: 2.5%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
