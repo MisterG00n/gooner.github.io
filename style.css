@@ -2,7 +2,7 @@ body{
 
     font-family: Arial, Helvetica, sans-serif;
 }
-.btn {
+.btn{
     background-color: DodgerBlue;
     border: none;
     color: white;
@@ -11,9 +11,9 @@ body{
     font-size: 20px;
   }
   
-  .btn:hover {
+.btn:hover{
     background-color: RoyalBlue;
-  }
+}
 ul {
     display: flex;  
     flex-wrap: wrap;
@@ -45,7 +45,7 @@ ul li{
 }
 
 .contactIcon{
-    font-size:20px;
+    font-size: 25px;
     word-spacing: 35px;
 }
 .contactIcon a{
