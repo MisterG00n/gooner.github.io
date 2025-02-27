@@ -17,13 +17,15 @@ body{
     flex-wrap: wrap;
     padding-left: 5%;
 }
-
+.Tablet i{
+    color:blue;
+}
 .Tablet{
     font-size: 15px;
     display:grid;
     align-items:center;
     gap: 5px;
-    grid-template-columns: 335px 540px;
+    grid-template-columns: 335px 540px 200px;
     font-size: 15px;
 }
 .IntroPage{
@@ -71,12 +73,11 @@ body{
     list-style-type: none;
 }
 .Experience{
-    margin-left: 5px;
-    margin-top: 125px;
+    margin-top: 25px;
     background-color: rgba(84, 255, 232, 0.56);
     padding: 20px;
     width: 490px;
-    height: 450px;
+    height: 600px;
 }
 .bigBoxes{
     font-size: 15px;
