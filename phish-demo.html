@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SafeBank – Xác minh tài khoản (mô phỏng)</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<!-- TRAINING SIMULATION: form has no action, JS never reads the password, nothing is sent or stored. -->
+<header class="site"><p class="logo">SafeBank</p><nav><a href="#" onclick="return false">Hỗ trợ</a></nav></header>
+<main><form class="login panel" id="phishForm" autocomplete="off" novalidate>
+<h1 style="font-size:1.6rem">Cảnh báo bảo mật: xác minh ngay</h1>
+<p>Tài khoản của bạn sẽ bị <b>khóa sau 24 giờ</b> nếu không xác minh. Vui lòng đăng nhập để tiếp tục.</p>
+<label for="u">Tên đăng nhập</label><input id="u" type="text">
+<label for="p">Mật khẩu</label><input id="p" type="password">
+<button class="btn" type="submit" style="margin-top:16px">Xác minh ngay</button>
+</form></main>
+<footer>Trang mô phỏng phục vụ đào tạo.</footer>
+
+<div class="overlay" id="warn" role="dialog" aria-modal="true" aria-labelledby="wt"><div class="modal">
+<h2 id="wt">Đây là bài mô phỏng lừa đảo (phishing)</h2>
+<p>Không có thông tin nào của bạn được gửi đi hay lưu lại. Nếu đây là trang thật, bạn đã đưa mật khẩu cho kẻ tấn công. Dấu hiệu nhận biết:</p>
+<ul>
+<li><b>URL:</b> địa chỉ trang này không phải tên miền chính thức của ngân hàng. Hãy đọc tên miền thật trên thanh địa chỉ.</li>
+<li><b>HTTPS và chứng chỉ:</b> bấm vào biểu tượng ổ khóa, xem chứng chỉ cấp cho tên miền nào. Ổ khóa không đồng nghĩa với an toàn.</li>
+<li><b>Tạo áp lực:</b> "khóa sau 24 giờ" là chiêu thúc ép phổ biến.</li>
+<li><b>Cách xử lý:</b> không bấm liên kết trong tin nhắn; tự gõ địa chỉ chính thức hoặc dùng ứng dụng, và báo cho bộ phận bảo mật.</li>
+</ul>
+<p><a class="btn" href="quiz.html">Làm bài kiểm tra URL</a> <button class="btn ghost" id="closeWarn" type="button">Đóng</button></p>
+</div></div>
+<script src="app.js"></script></body></html>
